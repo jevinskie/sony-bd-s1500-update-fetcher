@@ -34,9 +34,22 @@ def get_url(ses: Session, url: str) -> None:
 
 def main() -> None:
     s = Session()
+    print("Starting search for BDV-E190 FWs")
+    for i in reversed(range(530)):
+        print(f"M12R FW #{i}")
+        url = f"https://hav.update.sony.net/BDP/data/UPDATA_M12R{i:04d}.zip"
+        if check_url(s, url):
+            get_url(s, url)
+    print("Starting search for BDP-S5100 FWs")
     for i in reversed(range(275)):
-        print(f"FW #{i}")
+        print(f"M15R FW #{i}")
         url = f"https://hav.update.sony.net/BDP/data/UPDATA_M15R{i:04d}.zip"
+        if check_url(s, url):
+            get_url(s, url)
+    print("Starting search for BDP-S1500 FWs")
+    for i in reversed(range(370)):
+        print(f"M24R FW #{i}")
+        url = f"https://hav.update.sony.net/BDP/data/UPDATA_M24R{i:04d}.zip"
         if check_url(s, url):
             get_url(s, url)
 
