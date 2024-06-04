@@ -37,21 +37,30 @@ def main() -> None:
     print("Starting search for BDV-E190 FWs")
     for i in reversed(range(530)):
         print(f"M12R FW #{i}")
-        url = f"https://hav.update.sony.net/BDP/data/UPDATA_M12R{i:04d}.zip"
-        if check_url(s, url):
-            get_url(s, url)
+        url_a = f"https://hav.update.sony.net/BDP/data/UPDATA_M12R{i:04d}.zip"
+        if check_url(s, url_a):
+            get_url(s, url_a)
+        url_e = f"https://hav.update.sony.net/BDP/data/UPDATE_M12R{i:04d}.zip"
+        if check_url(s, url_e):
+            get_url(s, url_e)
     print("Starting search for BDP-S5100 FWs")
     for i in reversed(range(275)):
         print(f"M15R FW #{i}")
-        url = f"https://hav.update.sony.net/BDP/data/UPDATA_M15R{i:04d}.zip"
-        if check_url(s, url):
-            get_url(s, url)
+        url_a = f"https://hav.update.sony.net/BDP/data/UPDATA_M15R{i:04d}.zip"
+        if check_url(s, url_a):
+            get_url(s, url_a)
+        url_e = f"https://hav.update.sony.net/BDP/data/UPDATE_M15R{i:04d}.zip"
+        if check_url(s, url_e):
+            get_url(s, url_e)
     print("Starting search for BDP-S1500 FWs")
     for i in reversed(range(370)):
         print(f"M24R FW #{i}")
-        url = f"https://hav.update.sony.net/BDP/data/UPDATA_M24R{i:04d}.zip"
-        if check_url(s, url):
-            get_url(s, url)
+        url_a = f"https://hav.update.sony.net/BDP/data/UPDATA_M24R{i:04d}.zip"
+        if check_url(s, url_a):
+            get_url(s, url_a)
+        url_e = f"https://hav.update.sony.net/BDP/data/UPDATE_M24R{i:04d}.zip"
+        if check_url(s, url_e):
+            get_url(s, url_e)
 
 
 if __name__ == "__main__":

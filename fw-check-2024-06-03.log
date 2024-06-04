@@ -24,7 +24,7 @@ Good response at: https://hav.update.sony.net/BDP/data/UPDATA_M12R0510.zip
 <Response [200]>
 {'Accept-Ranges': 'bytes', 'Content-Length': '103531284', 'Content-Type': 'application/zip', 'ETag':
 '"490247c34fbff2d365fe858386961050:1420514224"', 'Last-Modified': 'Mon, 22 Dec 2014 07:58:54 GMT', 'Server': 'AkamaiNetStorage', 'Date': 'Tue, 04
-Jun 2024 01:25:17 GMT', 'Connection': 'keep-alive'}
+Jun 2024 01:47:28 GMT', 'Connection': 'keep-alive'}
 
 FW: UPDATA_M12R0510.zip SHA-256: d243c6e8fe7388e847b3fb398f5fe8c097368f1440e59be1a2c84b6727859455
 
@@ -562,7 +562,7 @@ Good response at: https://hav.update.sony.net/BDP/data/UPDATA_M15R0257.zip
 <Response [200]>
 {'Accept-Ranges': 'bytes', 'Content-Length': '105757698', 'Content-Type': 'application/zip', 'ETag':
 '"ac5dcc970d84c9beffe4db978ea9adaa:1551144120.856291"', 'Last-Modified': 'Tue, 12 Feb 2019 02:43:34 GMT', 'Server': 'AkamaiNetStorage', 'Date':
-'Tue, 04 Jun 2024 01:29:29 GMT', 'Connection': 'keep-alive'}
+'Tue, 04 Jun 2024 01:55:45 GMT', 'Connection': 'keep-alive'}
 
 FW: UPDATA_M15R0257.zip SHA-256: 7209013baa51d9d011c928c76f96c7dec883c271b99097b91a376b930add151c
 
@@ -573,7 +573,7 @@ Good response at: https://hav.update.sony.net/BDP/data/UPDATA_M15R0255.zip
 <Response [200]>
 {'Accept-Ranges': 'bytes', 'Content-Length': '105336829', 'Content-Type': 'application/zip', 'ETag':
 '"0690846c29c2a95a5b072d7970ac8c45:1524830636"', 'Last-Modified': 'Wed, 25 Apr 2018 06:13:37 GMT', 'Server': 'AkamaiNetStorage', 'Date': 'Tue, 04
-Jun 2024 01:29:32 GMT', 'Connection': 'keep-alive'}
+Jun 2024 01:55:49 GMT', 'Connection': 'keep-alive'}
 
 FW: UPDATA_M15R0255.zip SHA-256: b37b2450d553cf0ebc9b6ecea0f5ca73139d902ca661d26d55d25ea0a36b038d
 
@@ -640,7 +640,7 @@ Good response at: https://hav.update.sony.net/BDP/data/UPDATA_M15R0197.zip
 <Response [200]>
 {'Accept-Ranges': 'bytes', 'Content-Length': '105866339', 'Content-Type': 'application/zip', 'ETag':
 '"0efeba92a176b0be3f6feac8b252f7da:1421064686"', 'Last-Modified': 'Mon, 22 Dec 2014 07:58:49 GMT', 'Server': 'AkamaiNetStorage', 'Date': 'Tue, 04
-Jun 2024 01:30:21 GMT', 'Connection': 'keep-alive'}
+Jun 2024 01:56:56 GMT', 'Connection': 'keep-alive'}
 
 FW: UPDATA_M15R0197.zip SHA-256: d755bc0253b4869ca603cddc661168111ba13d51123870c329dde6119ceccf14
 
@@ -665,7 +665,7 @@ Good response at: https://hav.update.sony.net/BDP/data/UPDATA_M15R0181.zip
 <Response [200]>
 {'Accept-Ranges': 'bytes', 'Content-Length': '106092375', 'Content-Type': 'application/zip', 'ETag':
 '"5a57a8614987a4b251db2517ab44b5bb:1411004141"', 'Last-Modified': 'Wed, 17 Sep 2014 08:25:56 GMT', 'Server': 'AkamaiNetStorage', 'Date': 'Tue, 04
-Jun 2024 01:30:51 GMT', 'Connection': 'keep-alive'}
+Jun 2024 01:57:25 GMT', 'Connection': 'keep-alive'}
 
 FW: UPDATA_M15R0181.zip SHA-256: 4679985b5b89620ff8c0f9d00a9430670629760bb4c4f1e1eaef76096324e4a9
 
@@ -864,6 +864,15 @@ M24R FW #360
 M24R FW #359
 M24R FW #358
 M24R FW #357
+
+Good response at: https://hav.update.sony.net/BDP/data/UPDATE_M24R0357.zip
+<Response [200]>
+{'Accept-Ranges': 'bytes', 'Content-Length': '129461603', 'Content-Type': 'application/zip', 'ETag':
+'"af15b05dc5ea7bbc9518bf698cf7c43b:1552956878.255112"', 'Last-Modified': 'Mon, 18 Feb 2019 05:52:34 GMT', 'Server': 'AkamaiNetStorage', 'Date':
+'Tue, 04 Jun 2024 02:00:32 GMT', 'Connection': 'keep-alive'}
+
+FW: UPDATE_M24R0357.zip SHA-256: 3a20ee0c4d337ae8ea9b91dc069399446b1601e218f05813eb5d6a78a1b2b602
+
 M24R FW #356
 M24R FW #355
 M24R FW #354
@@ -999,14 +1008,59 @@ M24R FW #225
 M24R FW #224
 M24R FW #223
 M24R FW #222
+
+Good response at: https://hav.update.sony.net/BDP/data/UPDATE_M24R0222.zip
+<Response [200]>
+{'Accept-Ranges': 'bytes', 'Content-Length': '129446782', 'Content-Type': 'application/zip', 'ETag':
+'"f17179073b1528248441a94690e6e589:1519369366"', 'Last-Modified': 'Fri, 23 Feb 2018 03:03:57 GMT', 'Server': 'AkamaiNetStorage', 'Date': 'Tue, 04
+Jun 2024 02:02:38 GMT', 'Connection': 'keep-alive'}
+
+FW: UPDATE_M24R0222.zip SHA-256: 44b75dee0770c00a15ca0707f3c80bc4f87b462c3e77d8f560e07f0d2aded740
+
 M24R FW #221
+
+Good response at: https://hav.update.sony.net/BDP/data/UPDATE_M24R0221.zip
+<Response [200]>
+{'Accept-Ranges': 'bytes', 'Content-Length': '129446174', 'Content-Type': 'application/zip', 'ETag':
+'"7e2a4990678441b05f49653699aeb195:1485412318"', 'Last-Modified': 'Wed, 18 Jan 2017 03:47:21 GMT', 'Server': 'AkamaiNetStorage', 'Date': 'Tue, 04
+Jun 2024 02:02:57 GMT', 'Connection': 'keep-alive'}
+
+FW: UPDATE_M24R0221.zip SHA-256: 9494489bd5b29621e69e5d90a02bedb5653c5f7c1c4686d1b75e154a55a24ac4
+
 M24R FW #220
 M24R FW #219
 M24R FW #218
+
+Good response at: https://hav.update.sony.net/BDP/data/UPDATE_M24R0218.zip
+<Response [200]>
+{'Accept-Ranges': 'bytes', 'Content-Length': '129470691', 'Content-Type': 'application/zip', 'ETag':
+'"d5b66858860bbd6719fc9b4f634e6e75:1464092310"', 'Last-Modified': 'Tue, 19 Apr 2016 11:53:41 GMT', 'Server': 'AkamaiNetStorage', 'Date': 'Tue, 04
+Jun 2024 02:03:16 GMT', 'Connection': 'keep-alive'}
+
+FW: UPDATE_M24R0218.zip SHA-256: 891cc5ef565d708b3ba1e092671bbcbc8cba2d7b04ffd19bf003392f1adb9789
+
 M24R FW #217
 M24R FW #216
 M24R FW #215
+
+Good response at: https://hav.update.sony.net/BDP/data/UPDATE_M24R0215.zip
+<Response [200]>
+{'Accept-Ranges': 'bytes', 'Content-Length': '129003810', 'Content-Type': 'application/zip', 'ETag':
+'"d77f453a2a0b951648721813e9d24124:1439181197"', 'Last-Modified': 'Tue, 14 Jul 2015 03:03:17 GMT', 'Server': 'AkamaiNetStorage', 'Date': 'Tue, 04
+Jun 2024 02:03:37 GMT', 'Connection': 'keep-alive'}
+
+FW: UPDATE_M24R0215.zip SHA-256: a1acf7d0e2ec8399e1d91752b5a51b9983107a2b669c84946eb58706d4c39aa7
+
 M24R FW #214
+
+Good response at: https://hav.update.sony.net/BDP/data/UPDATE_M24R0214.zip
+<Response [200]>
+{'Accept-Ranges': 'bytes', 'Content-Length': '129003746', 'Content-Type': 'application/zip', 'ETag':
+'"0e70ba13655eff28a6d9ae0f12fd6596:1434973862"', 'Last-Modified': 'Wed, 03 Jun 2015 02:09:22 GMT', 'Server': 'AkamaiNetStorage', 'Date': 'Tue, 04
+Jun 2024 02:03:55 GMT', 'Connection': 'keep-alive'}
+
+FW: UPDATE_M24R0214.zip SHA-256: 34b9f253b9a93710142916ae5691bd529fb5f4cab28320952998df022db0b6be
+
 M24R FW #213
 M24R FW #212
 M24R FW #211
